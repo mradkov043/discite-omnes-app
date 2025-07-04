@@ -1,0 +1,31 @@
+# Ignore IDE files
+.idea/
+*.iml
+
+# Ignore Gradle build folders
+.gradle/
+build/
+
+# Ignore local configuration
+local.properties
+
+# Ignore signing keys
+*.jks
+*.keystore
+
+# Ignore generated files
+captures/
+output.json
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore crash logs
+crashlytics-build.properties
+
+# Ignore Firebase config (if added)
+google-services.json
+
+# Ignore Kotlin build/cache
+.kotlinc/

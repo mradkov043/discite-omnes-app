@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <TextView
+        android:id="@+id/taskTitleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task title"
+        android:textStyle="bold"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/taskDescriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Task description"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp" />
+
+    <!-- Group name display -->
+    <TextView
+        android:id="@+id/taskGroupText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Group: Example Group"
+        android:textStyle="italic"
+        android:textSize="13sp"
+        android:textColor="#888888"
+        android:layout_marginTop="4dp" />
+
+    <CheckBox
+        android:id="@+id/taskCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Completed"
+        android:layout_marginTop="6dp"/>
+
+    <TextView
+        android:id="@+id/taskAssigneeText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Assigned to: John Doe"
+        android:textSize="13sp"
+        android:layout_marginTop="4dp" />
+
+    <TextView
+        android:id="@+id/taskDueDateText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Due: 2025-07-05"
+        android:textSize="13sp"
+        android:layout_marginTop="2dp" />
+
+
+</LinearLayout>
